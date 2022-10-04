@@ -26,12 +26,12 @@
   --light-mode4: #354259;
   --light-mode5: #252637;
 
-  --solar-mode1:#F8EDE3;
-  --solar-mode2:#BDD2B6;
-  --solar-mode3:#A2B29F;
-  --solar-mode4:#798777;
-  --solar-mode5:#252637;
-  
+  --solar-mode1: #F8EDE3;
+  --solar-mode2: #BDD2B6;
+  --solar-mode3: #A2B29F;
+  --solar-mode4: #798777;
+  --solar-mode5: #252637;
+
 }
 
 .dark {
@@ -75,21 +75,21 @@
 
 .solar {
   --bg:
-  var(--solar-mode3);
---bg-nav:
-  var(--solar-mode3);
---bg-dropdown:
-  var(--solar-mode1);
---text:
-  var(--solar-mode5);
---border-color:
-  var(--light);
---bg-solar:
-  var(--yellow);
---logo-color1:
-  var(--solar-mode4);
---logo-color2:
-  var(--solar-mode2);
+    var(--solar-mode3);
+  --bg-nav:
+    var(--solar-mode3);
+  --bg-dropdown:
+    var(--solar-mode1);
+  --text:
+    var(--solar-mode5);
+  --border-color:
+    var(--light);
+  --bg-solar:
+    var(--yellow);
+  --logo-color1:
+    var(--solar-mode4);
+  --logo-color2:
+    var(--solar-mode2);
 }
 
 
@@ -125,7 +125,7 @@ header {
   color: var(--text);
   clip-path: polygon(50% 0%, 100% 0%, 100% 90%, 50% 100%, 0% 90%, 0px 0px);
   color:
-  black;
+    black;
 }
 
 header h1,
@@ -200,6 +200,7 @@ body::-webkit-scrollbar-thumb {
 .nav-link:hover .fa-primary {
   color: var(--bg-dropdown);
 }
+
 .nav-link:hover .fa-secondary {
   color: var(--logo-color1);
 }
@@ -341,21 +342,22 @@ body::-webkit-scrollbar-thumb {
     margin-left: 18rem;
   }
 */
-}
 
-.navbar:hover .link-text {
-  display: inline;
-}
 
-.navbar:hover .logo svg {
-  margin-left: 4rem;
-}
+  .navbar:hover .link-text {
+    display: inline;
+  }
 
-.navbar:hover .logo-text {
-  left: 0px;
-}
+  .navbar:hover .logo svg {
+    margin-left: 4rem;
+  }
 
-main {
-  margin-left: 5rem;
-}
+  .navbar:hover .logo-text {
+    left: 0px;
+  }
+
+  main {
+    margin-left: 5rem;
+  }
+
 }
