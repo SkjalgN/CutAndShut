@@ -1,100 +1,338 @@
 <!DOCTYPE html>
 <html>
 
-    <head>
-        <meta charset="UTF-8">
-        <title>P2 Design</title>
-        <link rel="stylesheet" href="P1_style.css">
-    </head>
-    
-    <body>
-        <header>
-            <h1>P2 Design</h1>
-            <h3>Andreas Børve, Andreas Olborg, Jon Grendstad, Ole Evjen-Caspersen, Christian Kartveit, Skjalg Nysæter</h3>
-        </header>
-    
-        <hr>
+<head>
+    <meta charset="UTF-8">
+    <title>P2 Design</title>
+    <link rel="stylesheet" href="P1_style.css">
+</head>
 
-        <main>
-            <article> 
-                <section>
-                    <h2>Table of contents</h2>
-                    <ol>
-                        <li><a href="#s1">Administrative details</a></li>
-                        <li><a href="#s2">Purpose and goals</a></li>
-                        <li><a href="#s3">Audience</a></li>
-                        <li><a href="#s4">Navigation Structure</a></li>
-                        <li><a href="#s5">Page Layout and Appearance</a></li>
-                        <li><a href="#s6">Minimum Requirements</a></li>
-                        <li><a href="#s7">Plan</a></li>
-                    </ol>
-                </section>
+<body>
+    <header>
+        <h1>P2 Design</h1>
+        <h3>Andreas Børve, Andreas Olborg, Jon Grendstad, Ole Evjen-Caspersen, Christian Kartveit, Skjalg Nysæter</h3>
+    </header>
 
-                <hr>
+    <hr>
 
-                <section id="s1">
-                    <h2>Our Client</h2>
-                    <p>
-                    Kaj-Robert and Kurre Räven owns and operates a hair salon on Solsiden, Trondheim. The salon has been passed down for three 
-                    generations, continuing the Zohan-inspired cutting style. Kaj-Robert aka Kajjan is a good friend of the whole group. 
-                    Their hair salon is called Cut and Shut and serve men and women of all ages. Kaj-Robert has recently experienced a decrease in customers since last summer. 
-                    We offered to make him a website to hopefully get his business back on track. The website will be called Cut and Shut.
-                    </p>
-                </section>
+    <main>
+        <article>
+            <section>
+                <h2>Table of contents</h2>
+                <ol>
+                    <li><a href="#s1">Administrative details</a></li>
+                    <li><a href="#s2">Purpose, goals and audience</a></li>
+                    <li><a href="#s3">Navigation Structure</a></li>
+                    <li><a href="#s4">Page Layout and Appearance</a></li>
+                    <li><a href="#s5">Content</a></li>
+                    <li><a href="#s6">Minimum requirements</a></li>
+                    <li><a href="#s7">Plan</a></li>
+                </ol>
+            </section>
+
+            <hr>
+
+            <section id="s1">
+                <h2>Our Client</h2>
+                <p>
+                    Kaj-Robert and Kurre Räven owns and operates a hair salon on Solsiden, Trondheim.
+                    Their salon is called Cut and Shut and serve men and women of all ages. Kaj-Robert has recently
+                    experienced a decrease in customers since last summer.
+                    We offered to make him a website to hopefully get his business back on track.
+            </section>
+
+            <hr>
+
+            <section id="s2">
+                <h2>Purpose, goals and audience</h2>
+                <p>
+                    Kaj-Robert needs a website that displays his business in a professional and informal way. He wants
+                    information about his salon, the different services he provides, and his contact information and
+                    location should
+                    be easily accessible. The site will hopefully also show
+                    inspiration for different hairstyles. Another goal is to make a reservation function that lets
+                    customers plan their visits better.
+                    The target audience are people of all ages. The audience expects good reservation
+                    service along with a professional and easily accessible website. In addition, the information should
+                    be placed so the customer doesn’t have to search for it.
+                    They will also prefer pictures to easier be able to understand the services provided.
+                </p>
+            </section>
+
+            <hr>
+
+            <section id="s3">
+                <h2>Navigation Structure</h2>
+                <p> The navigation structure of the website is shown in the image below.
+                    Every page will be available at all times through the nav-bar at the top of the page.
+                    This makes for a simple and non confusing interface, which both children and adults alike will find
+                    satisfying to use.
+                    The reason we chose this much freedom for our users is to avoid confusing “path-choosing” within
+                    certain pages.
+                    Our page does not need certain pages to be visited before others, so forcing users through a path is
+                    not in our interest.
+                </p>
 
 
-                <section id="s2">
-                    <h2>Purpose and goals</h2>
-                    <p>
-                    Kaj-Robert needs a website that displays his business in a professional and informal way. He wants information about his salon, along with the different services he provides.
-                    He needs his contact information and location easily accessible. The site will hopefully also show inspiration for different hairstyles.
-                    Another goal is to make a reservation function that lets customers plan their visits better.
-                    </p>
-                </section>
+                <figure>
+                    <img id="nav_img" src="img/Navigation.png">
+                    <figcaption> Picture 1: Navigation structure of the web page. </figcaption>
+                </figure>
+            </section>
 
-                <hr>
+            <hr>
 
-                <section id="s3">
-                    <h2>Audience</h2>
-                    <p>
-                    Our main audience is the locals of Trondheim city. We target people of all ages and aim to have a broad variety of hairstyles available on the website. The audience expects good reservation
-                    service along with a professional and easily accessible website. The site should be pleasant to look at and information should be placed so the customer doesn’t have to search for it.
-                    They will also want pictures so they easier understand the services provided by the salon.
-                    </p>
-                </section>
+            <section id="s4">
+                <h2>Page Layout and Appearance</h2>
+                <p> When deciding the basic design of the webpage, our group found a minimalistic and modern style
+                    appealing.
+                    We want to promote a professional hair-salon with an “easy on the eye” design.
+                    The beige color palette gives a calm feeling, and modern text format gives a nice flow to the
+                    website.
+                    The navigation bar is placed along with the logo, in the header.
+                    Here you can easily access each of the pages as well as giving a nice overview of the website.
+                    In the footer contact info as well as a quick reservation tool is placed.
+                    In the background there will be a placeholder image with low opacity.
+                    This is to give a touch of hair-salon to the design.
+                </p>
 
-                <hr>
+                <figure>
+                    <img class="bilder" src="img/Slide 16_9 - 1.png">
+                    <figcaption> Picture 2: Mockup for Generic Features. </figcaption>
+                </figure>
 
-                <section id="s4">
-                    <h2>Navigation Structure</h2>
-                    <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>  
-                </section>
+                <p> The specific styling for the website that will apply to all pages can be found below: </p>
 
-                <hr>
+                <ul>
+                    <li>Font: “Inter” for the navigation bar (14px), “Roboto” for footer (18px for headers, 14px else),
+                        and "Public Sans" for the body </li>
+                    <li>Color Scheme
+                        <ul>
+                            <li>Text and "Kontakt oss" button: #3C3A36</li>
+                            <li>Background in header and footer: #EDE3DA </li>
+                            <li>Active button in nav bar: #E2CEBC</li>
+                            <li>Scissor symbol: #000000</li>
+                        </ul>
+                    </li>
+                    <li>Body width: 960px; </li>
+                    <li>Header: The header will contain the logo and navbar.</li>
+                    <li>Links: The Cut and Shut logo will be a clickable link that brings the user to the homepage.</li>
+                    <li>Navbar position and design: The nav-bar will appear at the top of the screen, in a header along
+                        with the logo.
+                        It will contain: Home, Gallery, Reservations, Contact, and information.</li>
+                    <li>Footer: The footer will contain contact information, a scissor figure, and links to social
+                        media. </li>
+                    <li>Background Images: We will use a blurred picture of a barber, which we will be in a png format.
+                    </li>
+                    <li>Logo: Our logo will be located on the upper left corner of the page. It will say Cut and Shut
+                        and have a modern design. </li>
+                </ul>
+            </section>
 
-                <section id="s5">
-                    <h2>Page Layout and Appearance</h2>
-                    <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                </section>
+            <hr>
 
-                <hr>
+            <section id="s5">
+                <h2>Content</h2>
+                <p> There will be 4 different html pages as follows: </p>
 
-                <section id="s6">
-                    <h2>Minimum Requirements</h2>
-                    <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                </section>
+                <h3>1. homepage.html</h3>
+                <p> When users visit the website they will first be directed to the startpage.
+                    The page will contain an intro text to welcome users.
+                    The interface design is pleasant, modern and gives the user a clean overview of what the website
+                    offers.
+                    By keeping the frontpage minimalistic we don't overwhelm new users and they get intrigued to
+                    continue exploring the website.
+                </p>
+                <figure>
+                    <img class="bilder" src="img/Slide 16_9 - 1.png">
+                    <figcaption> Picture 3: Mockup for homepage.html. </figcaption>
+                </figure>
 
-                <hr>
 
-                <section id="s7">
-                    <h2>Plan</h2>
-                    <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                </section>
+                <h3>2. reservations.html</h3>
+                <p> The reservations page will contain a user form to order a reservation at the hair salon.
+                    Our goal with the reservation form is to keep it as simple as possible while still collecting the
+                    essential information about the user.
+                    We obtain a name, cell phone number, and email-address as well as when they wish to get their hair
+                    cut.
+                    There's also included an additional info box so users can inform of any preferences or difficulties
+                    they might have.
+                </p>
+                <figure>
+                    <img class="bilder" src="img/Slide 16_9 - 2.png">
+                    <figcaption> Picture 4: Mockup for reservations.html. </figcaption>
+                </figure>
 
-            </article>
 
-   
-        </main>
-    </body>
+                <h3>3. gallery.html</h3>
+                <p> The Gallery page will contain images from previous haircuts done by the salon.
+                    Here users can easily scroll through styles and people for inspiration and proof of competence.
+                    This will hopefully make users eager to make a reservation at the salon.
+                </p>
+                <figure>
+                    <img class="bilder" src="img/Slide 16_9 - 3.png">
+                    <figcaption> Picture 5: Mockup for gallery.html. </figcaption>
+                </figure>
+
+
+                <h3>4. about.html</h3>
+                <p> The about page will contain essential information about the hair-dressers at the salon, Kaj-Robert
+                    and Kurre Räven.
+                    It will contain a short info text for each of them as well as a black-white photo.
+                    The about page is for the users to get an insight of who cuts their hair, and to make the website
+                    more proffesional.
+                </p>
+                <figure>
+                    <img class="bilder" src="img/Slide 16_9 - 4.png">
+                    <figcaption> Picture 6: Mockup for about.html. </figcaption>
+                </figure>
+
+
+
+            </section>
+
+            <hr>
+
+            <section id="s6">
+                <h2>Minimum requirements</h2>
+                <p> We plan to fulfill the minimum requirements of JavaScript by: </p>
+
+                <ol>
+                    <li>Having a responsive nav-bar. When you hover a link it should get a border/box around it.
+                        We want the navbar to be simple and easy to use but JavaScript can make it even more fancy.
+                        <br> <b>In charge</b></In>: Ole & Skjalg
+                    </li>
+                    <li>The gallery will have pretty scroll effects.
+                        It should be a fun experience to scroll through the different photos on the website.
+                        <br> <b>In charge</b></In>: Jon & Andreas B.
+                    </li>
+                    <li>Responsive logo. Change in size and color when hovered upon.
+                        This will make for a cool side effect to an already cool website.
+                        <br> <b>In charge</b></In>: Andreas O.
+                    </li>
+                    <li>Responsive interface when making a reservation.
+                        This will let the user know in a cool way that their reservation has been made.
+                        <br> <b>In charge</b></In>: Christian
+                    </li>
+                </ol>
+            </section>
+
+            <hr>
+
+            <section id="s7">
+                <h2>Plan</h2>
+                <p> Here our plan is displayed.
+                    We give each team member equal sized tasks so everyone gets to contribute to the final product.
+                    Stylesheets should be a group project since much of the styling will be used throughout the whole
+                    website.
+                    All of the files will be collected inside a folder webtek-prosjekt.
+                </p>
+
+                <h3>Organizational scheme</h3>
+                <p> List of files and folders: </p>
+                <ul>
+                    <li>homepage.html</li>
+                    <li>gallery.html</li>
+                    <li>about.html</li>
+                    <li>reservations.html</li>
+                    <li>images/ <ul>
+                            <li>background_image_png</li>
+                            <li>haircut_1.png</li>
+                            <li>haircut_2.png</li>
+                            <li>......</li>
+                            <li>haircut_x.png</li>
+                        </ul>
+                    </li>
+                    <li>scripts/ <ul>
+                            <li>nav_bar.js</li>
+                            <li>logo.js</li>
+                            <li>reservations.js</li>
+                            <li>gallery.js</li>
+                        </ul>
+                    </li>
+                    <li>styling.css</li>
+                </ul>
+
+
+                <h3>Work Division and Deadlines</h3>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Filename</th>
+                            <th>Description</th>
+                            <th>In charge</th>
+                            <th> Deadline </th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>homepage.html</td>
+                            <td>The homepage</td>
+                            <td>Skjalg</td>
+                            <td>11.11.2022</td>
+                        </tr>
+                        <tr>
+                            <td>gallery.html</td>
+                            <td>Page containing hairstyles</td>
+                            <td>Christian</td>
+                            <td>11.11.2022</td>
+                        </tr>
+                        <tr>
+                            <td>about.html</td>
+                            <td>Page containing information about the salon</td>
+                            <td>Jon</td>
+                            <td>11.11.2022</td>
+                        </tr>
+                        <tr>
+                            <td>reservations.html</td>
+                            <td>Page with the possibility to make a reservation</td>
+                            <td>Andreas O.</td>
+                            <td>11.11.2022</td>
+                        </tr>
+                        <tr>
+                            <td>nav_bar.js</td>
+                            <td>A javascript to make the nav bar responsive</td>
+                            <td>Ole & Skjalg</td>
+                            <td>16.11.2022</td>
+                        </tr>
+                        <tr>
+                            <td>logo.js</td>
+                            <td>A javascript to make the logo change size and color</td>
+                            <td>Andreas O.</td>
+                            <td>16.11.2022</td>
+                        </tr>
+                        <tr>
+                            <td>reservations.js</td>
+                            <td>A script making the reservation interface responsive </td>
+                            <td>Christian</td>
+                            <td>16.11.2022</td>
+                        </tr>
+                        <tr>
+                            <td>gallery.js</td>
+                            <td>A javascript creating pretty scrolling effects.</td>
+                            <td>Jon & Andreas B.</td>
+                            <td>16.11.2022</td>
+                        </tr>
+                        <tr>
+                            <td>styling.css</td>
+                            <td>File containing all styling for the website</td>
+                            <td>Everyone</td>
+                            <td>20.11.2022</td>
+                        </tr>
+                        <tr>
+                            <td>Final controls</td>
+                            <td>Double checking each file for errors, checking the javascript and css</td>
+                            <td>Everyone</td>
+                            <td>21.11.2022</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </section>
+
+        </article>
+
+
+    </main>
+</body>
 
 </html>
