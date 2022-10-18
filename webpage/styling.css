@@ -1,0 +1,10 @@
+:root{
+    background-image: url(images/background_image_png.png);
+}
+
+.background{
+    opacity: 0.3;
+    filter: blur(10px);
+    max-width: 1920px;
+    height: 700px;
+}
