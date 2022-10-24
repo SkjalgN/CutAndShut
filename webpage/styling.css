@@ -1,10 +1,31 @@
 :root{
-    background-image: url(images/background_image_png.png);
 }
 
-.background{
+body div #background-img{
     opacity: 0.3;
     filter: blur(10px);
+    -webkit-filter-blur: blur(10px);
     max-width: 1920px;
     height: 700px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    position: relative;
+    z-index: -1;
+    background-image: url(images/background_image_png.png);
+
+}
+h1{
+    background-color: transparent;
+}
+#Welcome{
+    font-size: 50px;
+    font-family: 'Roboto', sans-serif;
+    color: black;
+    background-color: transparent;
+    text-align: center;
+    align-items: center;
+    z-index: 2;
+    
 }
