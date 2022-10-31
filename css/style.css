@@ -7,7 +7,7 @@ h1 {
 
 main {
   font-family: 'Quicksand', sans-serif;
-  height: 74vh;
+  height: 75vh;
   background-image: url("/images/background.jpg");
   background-repeat: no-repeat;
   background-size: cover;
@@ -76,7 +76,7 @@ head {
 
 .logo img {
   /* max-width: fit-content; */
-  height: 7vh;
+  height: 5vh;
   padding: 0;
   margin: 0;
 }
@@ -95,7 +95,7 @@ head {
   background-color: #EDE3DA;
   overflow: hidden;
   display: flex;
-  height: 8vh;
+  height: 5vh;
 
 }
 
@@ -221,7 +221,7 @@ head {
   flex-direction: row;
   justify-content: space-around;
   align-items: center;
-  height: 18vh;
+  height: 20vh;
   /*padding: 10px;*/
 }
 
