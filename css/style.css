@@ -1,8 +1,51 @@
 @import url('https://fonts.googleapis.com/css?family=Quicksand&display=swap');
 
-main{
 
+h1 {
+  margin: 0;
 }
+
+main {
+  font-family: 'Quicksand', sans-serif;
+  height: 74vh;
+  background-image: url("/images/background.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  width: 50vw;
+  padding: 20px;
+  background-color: rgba(255, 255, 255, 0.5);
+  border-radius: 10px
+}
+
+form label, form input {
+  font-family: 'Quicksand', sans-serif;
+  font-size: 1.5em;
+  margin-bottom: 5px;
+}
+
+form button {
+  font-family: 'Quicksand', sans-serif;
+  font-weight: bold;
+  font-size: 1.5em;
+  margin-top: 10px;
+  padding: 10px;
+  border-radius: 5px;
+  background-color: #f5f5f5;
+  border: 1px solid #ccc;
+  cursor: pointer;
+}
+
 
 
 body {
@@ -33,7 +76,7 @@ head {
 
 .logo img {
   /* max-width: fit-content; */
-  height: 60px;
+  height: 7vh;
   padding: 0;
   margin: 0;
 }
@@ -52,6 +95,8 @@ head {
   background-color: #EDE3DA;
   overflow: hidden;
   display: flex;
+  height: 8vh;
+
 }
 
 /* Style the links inside the navigation bar */
@@ -163,8 +208,7 @@ head {
 
 /* FOOTER FOOTER FOOTER */
 
-.footerComponent
- {
+.footerComponent {
   position: fixed;
   bottom: 0;
   background-color: #EDE3DA;
@@ -172,15 +216,16 @@ head {
   width: 100vw;
 }
 
-.footerContent{
+.footerContent {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
   align-items: center;
-  padding: 10px;
+  height: 18vh;
+  /*padding: 10px;*/
 }
 
-.footerContent img{
+.footerContent img {
   height: 70px;
 }
 
@@ -191,23 +236,21 @@ head {
 
 /* MAIN MAIN MAIN */
 
-.mainContent{
+.mainContent {
   display: flex;
   flex-direction: column;
   /* flex: 1; */
 }
 
-.backgroundImage{
-  background-image: url("https://i.imgur.com/6ZQ2Z7M.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
+.backgroundImage {
+
   filter: blur(10px);
-  position: absolute;
-  width: 100vw;
+  scale: 1.3;
+  width: 100%;
+  overflow: hidden;
 }
 
-.frontText{
+.frontText {
   display: flex;
   flex-direction: column;
   justify-content: center;
