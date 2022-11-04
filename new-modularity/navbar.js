@@ -1,6 +1,7 @@
 async function injectHTML(filePath,elem) {
     try {
         const response = await fetch(filePath);
+        console.log('response',response)
         if (!response.ok) {
             return;
         }
