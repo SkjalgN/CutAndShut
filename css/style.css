@@ -76,7 +76,7 @@ head {
 
 .logo img {
   /* max-width: fit-content; */
-  height: 5vh;
+  height: 70px;
   padding: 0;
   margin: 0;
 }
@@ -95,7 +95,7 @@ head {
   background-color: #EDE3DA;
   overflow: hidden;
   display: flex;
-  height: 5vh;
+  height: 70px;
 
 }
 
@@ -208,21 +208,16 @@ head {
 
 /* FOOTER FOOTER FOOTER */
 
-.footerComponent {
+.footerContent {
   position: fixed;
   bottom: 0;
   background-color: #EDE3DA;
-  /* margin: 0; */
   width: 100vw;
-}
-
-.footerContent {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
   align-items: center;
   height: 20vh;
-  /*padding: 10px;*/
 }
 
 .footerContent img {
