@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../css/style.css" />
+    <title>Cut n Shut</title>
+</head>
+
+<body>
+    <div id="navbar"></div>
+    <main>
+        <form class="formOrder">
+            <label for="Fullt navn" type="text">Fullt navn <br>
+                <input class="inputReg" type="text" name="FulllName" placeholder="Skriv inn fullt navn"/>
+            </label>
+            <label for="Telephone" type="tel"> Telefonnunner <br>
+                <input class="inputReg" type="tel" name="Telephone" placeholder="+47 12 34 56 78"/>
+            </label>
+            <label for="Email" type="Email" > Epost <br>
+                <input class="inputReg" type="Email" name="Email" placeholder="Epost@domene.no"/>
+            </label>
+            <label for="Date and time" type="datetime-local" > Ønsket dato og tid <br>
+                <input class="inputReg" type="datetime-local" name="Date and time" >
+            </label>
+            <label for="Other information" type="information"> Annet info<br>
+                <input class="inputReg" type="text" name="Other information" placeholder="Skriv inn annet info">
+            </label>
+            <label for="Submit">
+                <input class="submitButton" type="submit" name="Bestill" placeholder="Send inn"> 
+            </label>
+        </form>
+    </main>
+</body>
+<script src="inject.js"></script>
+
+</html>
