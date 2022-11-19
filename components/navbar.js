@@ -6,7 +6,7 @@ export class Navbar extends HTMLElement {
 
       <div class="topnav" id="myTopnav">
         <div class="logo">
-          <a href="index.html"><img src="images/logo.png" alt="logo" class="logoImage"></a>
+          <a href="index.html"><img id="logopic" onmouseover="mouseOn(this)" src="images/logo.png" alt="logo" class="logoImage"></a>
         </div>
         <div class="menu">
             <a href="/" id="navbarOption">Hjem</a>
@@ -36,3 +36,6 @@ for (let i = 0; i < menuLength; i++) {
     menuItem[i].className = "active";
   }
 }
+
+
+
