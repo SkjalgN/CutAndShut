@@ -4,7 +4,7 @@ var navbarTemplate = `
 
 <div class="topnav" id="myTopnav">
   <div class="logo">
-    <a href="index.html"><img src="images/logo.png" alt="logo" class="logoImage"></a>
+    <a onmouseover="mouseOn(this)" href="index.html"><img src="images/logo.png" alt="logo" class="logoImage" id="logopic"></a>
   </div>
   <div class="menu">
       <a href="index.html" id="navbarOption">Hjem</a>
@@ -18,6 +18,23 @@ var navbarTemplate = `
       </div>
 </div>
 `
+var looper;
+var degrees = 0;
+function rotate(el, speed) {
+  var elem = document.getElementById("logopic");
+  elem.style.transform = "rotate(" + degrees + "deg)";
+  looper = setTimeout('rotate(\'' + el + '\',' + speed + ')', speed);
+  degrees++;
+  if (degrees > 359) {
+    clearTimeout(looper);
+    degrees = 0;
+  }
+}
+
+function mouseOn(element) {
+  rotate("logopic", 5);
+}
+
 
 navbarElement.innerHTML = navbarTemplate;
 
