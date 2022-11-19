@@ -1,14 +1,8 @@
-function test(){
-    var alle = document.getElementsByClassName("image-container");
-    for (var i = 0; i < alle.length; i++){
-        console.log(alle[0].childElementCount);
-        
-        for (var j = 0; j < alle[0].childElementCount; j++) {
-            
-            console.log("Test")
-            alle[i].children[j].style.backgroundColor = "red";
-            
-        }
-    }
-
+function mouseOn(element){
+    "shadow background"
+    element.style.boxShadow = "0 0 5px 5px #808080";
+}
+function mouseOff(element){
+    "shadow background"
+    element.style.boxShadow = "0 0 0 0 #000";
 }
