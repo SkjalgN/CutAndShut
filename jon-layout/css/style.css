@@ -8,12 +8,6 @@ body, html {
   padding: 0;
 }
 
-.wrapper {
-  display: flex;
-  height: 100%;
-  flex-direction: column;
-  background: red;
-}
 
 .navbar {
   height: 70px;
@@ -27,16 +21,16 @@ body, html {
 }
 
 .footer {
-  height: 50px;
+  height: 100px;
   background: yellow;
 }
 
 .scrollable {
-flex:1;
-overflow-y: auto;
-background-color: pink;
-display:flex;
-flex-direction: column;
+  overflow-y: auto;
+  background-color: pink;
+  display:flex;
+  flex-direction: column;
+  height:100%;
 }
 
 /* --------CSS FOR NAVBAR-------- */
@@ -170,8 +164,10 @@ flex-direction: column;
 /* --------CSS FOR FOOTER-------- */
 
 .footerContent {
-  height: 100%;
+  overflow: hidden;
+  max-height: 100px;
   background-color: #EDE3DA;
+  width: 100vw;
   display: flex;
   flex-direction: row;
   justify-content: space-around;
@@ -180,7 +176,7 @@ flex-direction: column;
 }
 
 .footerContent img {
-  height: 70px;
+  height: 50px;
 }
 
 
