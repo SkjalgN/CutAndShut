@@ -1,7 +1,9 @@
 @import url('https://fonts.googleapis.com/css?family=Quicksand&display=swap');
 
 /* ----------------------------START NY CSS------------------------------- */
-
+:root{
+  font-family: 'Quicksand', sans-serif;
+}
 body, html {
   height: 100%;
   margin: 0;
@@ -35,7 +37,7 @@ body, html {
 
 /* --------CSS FOR NAVBAR-------- */
 .topnav {
-  font-family: "Quicksand", serif;
+  /* font-family: "Quicksand", serif; */
   background-color: #EDE3DA;
   display: flex;
 }
@@ -173,6 +175,7 @@ body, html {
   justify-content: space-around;
   align-items: center;
   z-index: 10;
+  padding: 10px;
 }
 
 .footerContent img {
@@ -182,7 +185,7 @@ body, html {
 /* --------CSS FOR GALLERY-------- */
 
 .galleryWrapper {
-  font-family: 'Quicksand', sans-serif;
+  /* font-family: 'Quicksand', sans-serif; */
   background-image: linear-gradient(to bottom, rgba(206, 206, 206, 0.7), rgba(255, 255, 255, 0.8)),url("../images/background.jpg");
   background-repeat: no-repeat,no-repeat;
   background-size: cover;
@@ -216,7 +219,7 @@ body, html {
 
 /* --------CSS FOR RESERVATIONS-------- */
 .reservationsWrapper {
-  font-family: 'Quicksand', sans-serif;
+  /* font-family: 'Quicksand', sans-serif; */
   background-image: linear-gradient(to bottom, rgba(206, 206, 206, 0.7), rgba(255, 255, 255, 0.8)),url("../images/background.jpg");
   background-repeat: no-repeat,no-repeat;
   background-size: cover;
@@ -276,7 +279,7 @@ h1 {
   display: flex;
   flex-direction: column;
   /* flex: 1; */
-}
+
  */
 .backgroundImage {
 
@@ -292,7 +295,7 @@ h1 {
   justify-content: center;
   align-items: center;
   text-align: center;
-  font-family: "Quicksand", serif;
+  /* font-family: "Quicksand", serif; */
   font-size: 50px;
   font-weight: 700;
   z-index: 1;

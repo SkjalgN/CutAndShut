@@ -25,13 +25,13 @@ var footerElement = document.querySelector('.footer');
 var footerTemplate = `
 
       <div class="footerContent">
-        <div class="footerLogo
+        <div class="footerLogo">
             <a href="index.html"><img src="images/logo.png" alt="logo" class="logoImage"></a>
         </div>
         <div class="footerContact">
             <h2>Kontakt oss</h2>
             <p>Telefon: 12345678</p>
-            <p>E-post: <a href="mailto:
+            <p>E-post: <a href="mailto:></a></p>
         </div>
       </div>
    
