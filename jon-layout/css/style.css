@@ -14,7 +14,7 @@ body, html {
 
 
 .navbar {
-  max-height: 70px;
+  max-height: 69px;
   background: blue;
 }
 
@@ -109,6 +109,27 @@ body, html {
 }
 
 
+#dropdown{
+  display: none;
+  position: relative;
+  margin-right: 70%;
+  flex-direction: column;
+  background-color: #EDE3DA;
+  border-radius: 4px;
+  padding: 10px;
+  z-index: 1;
+
+}
+
+#dropdown a{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  text-decoration: none;
+  color: black;
+  font-size: 20px;
+}
 
 
 @media screen and (max-width: 960px) {
@@ -145,7 +166,9 @@ body, html {
     flex-direction: column;
     justify-content: space-between;
   }
-  
+  #dropdown{
+    display: none;
+  }
 }
 
 @media screen and (max-width: 692px) {
@@ -161,6 +184,9 @@ body, html {
     transition: transform 1s ease-in-out;
     display: block;
   }
+
+
+
 }
 
 @media screen and (max-width: 682px) {
@@ -175,6 +201,10 @@ body, html {
   .topnav .menu a.icon {
     transition: opacity 1s ease-in-out;
     opacity: 1;
+  }
+
+  .navbar #dropdown{
+    display: none;
   }
 }
 
@@ -239,7 +269,9 @@ body, html {
   justify-content: center;
   flex-wrap: wrap;
   object-fit: contain;
+  /*
   z-index: 3;
+  */
 }
 .image-card{
   border: 2px solid ;
