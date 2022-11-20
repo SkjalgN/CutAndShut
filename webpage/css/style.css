@@ -155,6 +155,9 @@ body, html {
     flex-direction: column;
   }
 
+  .personalInfo:nth-child(2){
+    flex-direction: column-reverse;
+  }
 }
 
 @media screen and (max-width: 959px) {
