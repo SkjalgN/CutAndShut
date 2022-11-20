@@ -83,6 +83,34 @@ body, html {
   display: none;
 }
 
+
+.aboutBox{
+  display: flex;
+  flex-direction: column;
+  padding-left: 15%;
+  padding-right: 15%;
+  padding-top: 7%;
+  gap: 50px;
+}
+
+.personalInfo{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 15px;
+}
+
+.personalInfo img{
+  width: 26rem;
+}
+
+.personalInfo h1{
+  margin-left: 35%;
+}
+
+
+
+
 @media screen and (max-width: 960px) {
   .logo {
     overflow: hidden;
@@ -101,6 +129,11 @@ body, html {
     flex-direction: row;
     justify-content: space-between;
   }
+
+  .personalInfo{
+    flex-direction: column;
+  }
+
 }
 
 @media screen and (max-width: 959px) {
@@ -111,8 +144,8 @@ body, html {
   .topnav {
     flex-direction: column;
     justify-content: space-between;
-
   }
+  
 }
 
 @media screen and (max-width: 692px) {
@@ -305,27 +338,3 @@ h1 {
   z-index: 1;
 }
 
-
-.aboutBox{
-  display: flex;
-  flex-direction: column;
-  padding-left: 15%;
-  padding-right: 15%;
-  padding-top: 7%;
-  gap: 50px;
-}
-
-.personalInfo{
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  gap: 15px;
-}
-
-.personalInfo img{
-  width: 40%;
-}
-
-.personalInfo h1{
-  margin-left: 35%;
-}
