@@ -22,7 +22,6 @@ var navbarTemplate = `
       <a href="gallery.html" id="navbarOption" >Galleri</a>
       <a href="about.html" id="navbarOption">Om oss</a>
       <a href="reservations.html" id="navbarOption">Timebestilling</a>
-      <a href="contact.html" id="navbarOption">Kontakt</a>
       <a href="javascript:void(0);" class="icon" onclick="myFunction()">
         <i class="fa fa-bars"></i>
       </a>
