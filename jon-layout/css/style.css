@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Quicksand&display=swap');
 
+
+
 /* ----------------------------START NY CSS------------------------------- */
 :root{
   font-family: 'Quicksand', sans-serif;
@@ -22,7 +24,9 @@ body, html {
 }
 
 .footer {
+  /*
   height: 100px;
+  */
   background: yellow;
 }
 
@@ -301,3 +305,27 @@ h1 {
   z-index: 1;
 }
 
+
+.aboutBox{
+  display: flex;
+  flex-direction: column;
+  padding-left: 15%;
+  padding-right: 15%;
+  padding-top: 7%;
+  gap: 50px;
+}
+
+.personalInfo{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 15px;
+}
+
+.personalInfo img{
+  width: 40%;
+}
+
+.personalInfo h1{
+  margin-left: 35%;
+}
