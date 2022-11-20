@@ -68,8 +68,8 @@ var footerTemplate = `
         </div>
         <div class="footerContact">
             <h2>Kontakt oss</h2>
-            <p>Telefon: 12345678</p>
-            <p>E-post: <a href="mailto:></a></p>
+            <p>Telefon: 98712345678</p>
+            <p>E-post: kajjan@notreal.net</p>
         </div>
       </div>
    
