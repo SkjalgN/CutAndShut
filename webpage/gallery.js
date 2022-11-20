@@ -1,8 +1,7 @@
-function mouseOn(element){
-    "shadow background"
+function addShadow(element){
     element.style.boxShadow = "0 0 5px 5px #808080";
-}
-function mouseOff(element){
-    "shadow background"
+} 
+function removeShadow(element){
     element.style.boxShadow = "0 0 0 0 #000";
 }
+
