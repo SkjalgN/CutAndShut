@@ -346,13 +346,6 @@ h1 {
 /* -------------------------------SLUTT NY CSS----------------------------------- */
 
 
-/* 
-.mainContent {
-  display: flex;
-  flex-direction: column;
-  /* flex: 1; */
-
- */
 .backgroundImage {
 
   filter: blur(10px);
