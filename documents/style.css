@@ -7,7 +7,6 @@ body {
   margin: 0 20% 0 20%;
   width: 60%;
   line-height: 28px;
-  align-content: center;
 }
 
 footer {
@@ -49,4 +48,10 @@ table {
 
 img {
   max-width: 80%;
+  border: 2px solid grey;
+}
+
+section{
+  align-content: center;
+  align-items: center;
 }
