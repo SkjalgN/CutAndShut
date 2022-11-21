@@ -1,3 +1,25 @@
+GCP:
+
+- P13
+- GM15A
+- P12
+- P2
+- GM15C
+- P15
+
+
+
+
+CP:
+- P16
+- P4
+- P1
+- P10
+- P5
+- P11
+
+
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -32,7 +54,7 @@
                 </ol>
             </section>
 
-        
+
 
             <hr>
 
@@ -47,22 +69,141 @@
             <section id="s3">
                 <h2>The changes we have made</h2>
                 <p>
-                <h4>Changes to index.html:</h4>   
+                    When we started designing the website, we set out with a pretty clear plan. By the time we delivered
+                    P2,
+                    the structure was well defined and we had a clear vision about how we wanted the page to look.
+                    Thanks to the Figma we created, we ended up not having to change the styling of the page that much.
+                    That being said, we saw it necessary to modify some of the javascript initially planned. Below we
+                    will provide a summary of the changes, and the concerning files.
+                    <br>
+
+                <h4>Changes to the footer </h4>
+                Because the footer is present on the bottom of every page, the changes presented here naturally applies
+                to every page.
+                The initial plan was to include contact information, links to social media, and a stylish logo. As we
+                progressed through
+                the development, we noticed that the size of the footer was way too big. It took the attention away from
+                the actual page
+                content and made it hard to fit the rest on the side. We therefore decided to make it smaller. In
+                addition, we considered it
+                unnecessary to provide the "quick reservation tool" originally planned, so we removed it. The scissor
+                logo was replaced
+                by the same logo used in the nav-bar.
+
+                <h4>Changes to homepage.html:</h4>
+                First of all, we changed the file name to "index.html". This seemed to be a standard for most websites,
+                so we decided to go with that. For the rest of the page, we stuck to the design presented in P2.
+                <br>
+                <h4>Changes to reservations.html:</h4>
+                There were few changes done to this page, except for some small differences regarding font-family,
+                and the color of the reservation button. We also added a calender widget inside the date-input field.
+                This made it easier to collect the date on the right format, and it looks professional too.
                 <br>
                 <h4>Changes to gallery.html:</h4>
+                For the aesthetics, we wanted to keep every image the same size, and with the same proportions. This
+                simply
+                makes the page more visually pleasing to look at, and we also added a header. There is a image text
+                attached to
+                every photo as well, to provide information/reviews of the haircut.
+
+
                 <br>
-                Changes to about.html:
+                <h4>Changes to logo.js:</h4>
+                The initial plan was to make the logo change size and color when hovered over. We thought this was a bit
+                too similar to the hover effect we ended up with in gallery.js, so we took the decicion to make it
+                rotate instead when hovered over.
+                Just a cool easter egg.
+
+
                 <br>
-                Changes to reservations.html:
+                <h4>Changes to gallery.js:</h4>
+                Instead of having pretty scroll effects, we added a nice touch where the image that the user is hovering
+                over, gets highlighted.
+                To accomplish this we added a box shadow to the picture that is hovered over.
                 <br>
+
                 Changes to 1st required JS
-            
-            </p>
-                
+
+                </p>
+
             </section>
 
+            <h3>Work Division and Deadlines</h3>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Filename</th>
+                        <th>Description</th>
+                        <th>In charge</th>
+                        <th> Deadline </th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>homepage.html</td>
+                        <td>The homepage</td>
+                        <td>Skjalg</td>
+                        <td>11.11.2022</td>
+                    </tr>
+                    <tr>
+                        <td>gallery.html</td>
+                        <td>Page containing hairstyles</td>
+                        <td>Christian</td>
+                        <td>11.11.2022</td>
+                    </tr>
+                    <tr>
+                        <td>about.html</td>
+                        <td>Page containing information about the salon</td>
+                        <td>Jon</td>
+                        <td>11.11.2022</td>
+                    </tr>
+                    <tr>
+                        <td>reservations.html</td>
+                        <td>Page with the possibility to make a reservation</td>
+                        <td>Andreas O.</td>
+                        <td>11.11.2022</td>
+                    </tr>
+                    <tr>
+                        <td>nav_bar.js</td>
+                        <td>A javascript to make the nav bar responsive</td>
+                        <td>Ole & Skjalg</td>
+                        <td>16.11.2022</td>
+                    </tr>
+                    <tr>
+                        <td>logo.js</td>
+                        <td>A javascript to make the logo change size and color</td>
+                        <td>Andreas O.</td>
+                        <td>16.11.2022</td>
+                    </tr>
+                    <tr>
+                        <td>reservations.js</td>
+                        <td>A script making the reservation interface responsive </td>
+                        <td>Christian</td>
+                        <td>16.11.2022</td>
+                    </tr>
+                    <tr>
+                        <td>gallery.js</td>
+                        <td>A javascript creating pretty scrolling effects.</td>
+                        <td>Jon & Andreas B.</td>
+                        <td>16.11.2022</td>
+                    </tr>
+                    <tr>
+                        <td>styling.css</td>
+                        <td>File containing all styling for the website</td>
+                        <td>Everyone</td>
+                        <td>20.11.2022</td>
+                    </tr>
+                    <tr>
+                        <td>Final controls</td>
+                        <td>Double checking each file for errors, checking the javascript and css</td>
+                        <td>Everyone</td>
+                        <td>21.11.2022</td>
+                    </tr>
+                </tbody>
+            </table>
 
-            
+
+
         </article>
 
 
@@ -79,5 +220,5 @@
 
 
 </body>
-</html>
 
+</html>
