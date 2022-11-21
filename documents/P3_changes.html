@@ -62,7 +62,6 @@ CP:
                 <h2><strong>Administrative details</strong></h2>
                 <p><strong> Client name:</strong> Kaj-Robert and Kurre Räven </p>
                 <p> <strong>Website name:</strong> Cut n Shut</p>
-                <p> <strong>Contact person:</strong> NMG59B & BG14B</p>
                 <p> <strong>Link to website:</strong> </p>
             </section>
 
@@ -122,83 +121,99 @@ CP:
                 To accomplish this we added a box shadow to the picture that is hovered over.
                 <br>
 
-                Changes to 1st required JS
+                <h4>Changes to nav_bar.js</h4>
+                Instead of having a script for the nav bar effects, we created an "inject.js". This javascript file
+                essentially
+                defines the HTML for the nav bar and the footer, and then makes it possible to inject it into every page
+                on the
+                website. This was done to avoid having to write the same code on every page. The hover effect in the nav
+                bar
+                was therefore achieved using pure CSS instead.
+
+
+                <h4>How modularity was handled: </h4>
+                We conclude that it is not possible to load files from the file system to the browser without wrapping
+                our code as a web server. This is for security reasons. It would be bad if the browser could access your
+                file system and do things with your files. In this assignment we were not allowed to create a local web
+                server as we are not allowed to use any plugins. This makes modularity hard. The solution we had were to
+                inject html as a string from a jacascript file. We use the innerHTML property to achiveve this. Jon was
+                responsible
+                for managing this.
 
                 </p>
 
+
+
             </section>
 
-            <h3>Work Division and Deadlines</h3>
+            <h3>The final work division</h3>
             <table>
                 <thead>
                     <tr>
                         <th>Filename</th>
                         <th>Description</th>
                         <th>In charge</th>
-                        <th> Deadline </th>
                     </tr>
                 </thead>
                 <tbody>
                     <tr>
-                        <td>homepage.html</td>
+                        <td>index.html</td>
                         <td>The homepage</td>
-                        <td>Skjalg</td>
-                        <td>11.11.2022</td>
+                        <td>Christian</td>
                     </tr>
                     <tr>
                         <td>gallery.html</td>
                         <td>Page containing hairstyles</td>
                         <td>Christian</td>
-                        <td>11.11.2022</td>
                     </tr>
                     <tr>
                         <td>about.html</td>
                         <td>Page containing information about the salon</td>
                         <td>Jon</td>
-                        <td>11.11.2022</td>
                     </tr>
                     <tr>
                         <td>reservations.html</td>
                         <td>Page with the possibility to make a reservation</td>
                         <td>Andreas O.</td>
-                        <td>11.11.2022</td>
-                    </tr>
-                    <tr>
-                        <td>nav_bar.js</td>
-                        <td>A javascript to make the nav bar responsive</td>
-                        <td>Ole & Skjalg</td>
-                        <td>16.11.2022</td>
+
                     </tr>
                     <tr>
                         <td>logo.js</td>
-                        <td>A javascript to make the logo change size and color</td>
-                        <td>Andreas O.</td>
-                        <td>16.11.2022</td>
+                        <td>A javascript to make the logo rotate</td>
+                        <td>Ole</td>
+
                     </tr>
                     <tr>
                         <td>reservations.js</td>
                         <td>A script making the reservation interface responsive </td>
                         <td>Christian</td>
-                        <td>16.11.2022</td>
+
                     </tr>
                     <tr>
                         <td>gallery.js</td>
                         <td>A javascript creating pretty scrolling effects.</td>
-                        <td>Jon & Andreas B.</td>
-                        <td>16.11.2022</td>
+                        <td>Andreas B.</td>
+
+                    </tr>
+                    <tr>
+                        <td>inject.js</td>
+                        <td>Injects the html to be provided in the nav-bar and the footer on each web page.</td>
+                        <td>Jon</td>
+
+                    </tr>
+                    <tr>
+                        <td>Logo</td>
+                        <td>The logo for Cut n Shut</td>
+                        <td>Skjalg & Ole</td>
+
                     </tr>
                     <tr>
                         <td>styling.css</td>
                         <td>File containing all styling for the website</td>
                         <td>Everyone</td>
-                        <td>20.11.2022</td>
+
                     </tr>
-                    <tr>
-                        <td>Final controls</td>
-                        <td>Double checking each file for errors, checking the javascript and css</td>
-                        <td>Everyone</td>
-                        <td>21.11.2022</td>
-                    </tr>
+
                 </tbody>
             </table>
 
