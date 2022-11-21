@@ -20,25 +20,27 @@
                     <p id="dialogMessage">test</p>
                     <button id="confirmationMessageButton" onclick="closeConfirmation()">OK</button>
                 </dialog>
-                    <form method="dialog">
-                        <h1>Timebestilling</h1>
-                        <label for="name">Fullt navn:</label>
-                        <input type="text" placeholder="Navn Navnesen" id="name" name="name" pattern="[a-zA-ZæÆøØåÅ ]*$" required><br>
-                        <label for="phone">Telefon:</label>
-                        <input type="tel" placeholder="TLF : 12345678" id="phone" name="phone" pattern="[0-9]{8}" required ><br>
-                        
-                        <label for="email">E-post:</label>
-                        <input type="email" placeholder="mail@domene.no" id="email" name="email" required ><br>
-                        
-                        <label for="dateinput">Dato and tid:</label>
-                        <input type="datetime-local" id="dateinput" name="date" required><br>
-                        
-                        <label for="haircut">Ønsket frisyre:</label>
-                        <input type="text" placeholder="Eks: 80s hockeysveis" id="haircut" name="haircut" required ><br>
-                        
-                        <button type="submit" onclick="openConfirmation()">Send inn</button>
-                    </form>
-                </div>
+                <form method="dialog">
+                    <h1>Timebestilling</h1>
+                    <label for="name">Fullt navn:</label>
+                    <input type="text" placeholder="Navn Navnesen" id="name" name="name" pattern="[a-zA-ZæÆøØåÅ ]*$"
+                        required><br>
+                    <label for="phone">Telefon:</label>
+                    <input type="tel" placeholder="TLF : 12345678" id="phone" name="phone" pattern="[0-9]{8}"
+                        required><br>
+
+                    <label for="email">E-post:</label>
+                    <input type="email" placeholder="mail@domene.no" id="email" name="email" required><br>
+
+                    <label for="dateinput">Dato and tid:</label>
+                    <input type="datetime-local" id="dateinput" name="date" required><br>
+
+                    <label for="haircut">Ønsket frisyre:</label>
+                    <input type="text" placeholder="Eks: 80s hockeysveis" id="haircut" name="haircut" required><br>
+
+                    <button type="submit" onclick="openConfirmation()">Send inn</button>
+                </form>
+            </div>
 
 
         </div>
@@ -47,6 +49,7 @@
 
     <script src="inject.js"></script>
     <script src="reservations.js"></script>
+    <script src="rotatelogo.js"></script>
 </body>
 
 
