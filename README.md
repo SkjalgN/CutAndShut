@@ -38,8 +38,6 @@ Running the program is very easy and requires no special imports or API keys so 
 
 ### Built With
 
-This section should list any major frameworks/libraries used to bootstrap your project. Leave any add-ons/plugins for the acknowledgements section. Here are a few examples.
-
 * JavaScript
 * html
 * css
