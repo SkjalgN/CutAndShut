@@ -6,13 +6,13 @@
 <br />
 <div align="center">
   <a>
-    <img src="images/logo.png" alt="Logo" width="80" height="80">
+    <img src="webpage/images/logo.png" alt="Logo" height="80">
   </a>
 
-  <h3 align="center">ProjectSpotify</h3>
+  <h3 align="center">Cut&Shut</h3>
 
   <p align="center">
-    Sparetime project 2021
+    Project spring 2022
   </p>
 </div>
 
@@ -20,15 +20,15 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-This is one of my first projects outside of school and work. Its based solely on html, css, and some javascript, so don't excpect a lot. The project is a twist on spotify.
+Second Project. More Javascript, pages, forms, and interactive features. Still pretty basic stuff.
 
 Here's some key features:
-* A compelling frontpage
-* A playlist page
-* A contact page
+* Pages with clean layouts. reuse of code in all pages for headers and footers.
+* Image gallery
+* Forms
 
   <a>
-    <img src="images/spotifyscreen.png" alt="Logo">
+    <img src="documents/img/Slide16_9-1.png" alt="frontpage">
   </a>
 
 <!-- GETTING STARTED -->
@@ -43,8 +43,6 @@ This section should list any major frameworks/libraries used to bootstrap your p
 * JavaScript
 * html
 * css
-
-
 
 <!-- CONTACT -->
 ## Contact
